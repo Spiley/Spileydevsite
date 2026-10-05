@@ -1,0 +1,42 @@
+[
+  {
+    "app": "watchworld",
+    "listing": "https://play.google.com/store/apps/details?id=com.WatchWorld",
+    "icon": "https://play-lh.googleusercontent.com/t7lZjWJ9tpYrsBAhdHkoCKz4YipGhFP5KgocuE8vfD6_LrmlXvvHTd95q_g1_nLuCC_w6baoOUO-P_pIWSDu=s256",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/Yk0AC-w4lpPZkRQCr7Mn_MoaDmL395zadOpfPp4SXTeJ8WzpE1co8JtJoCvosHFvSD6rDm8Q8c6kfSNQsSH7zdg=w526-h296",
+      "https://play-lh.googleusercontent.com/frqNXfX57N_DbuSa4LZ5bRkOzog1WbtyI1LcYkKgzdNAYcUJoIO9NSoJ4ZVFEWYfHnadVldft-3VJSWZbgTa=w526-h296",
+      "https://play-lh.googleusercontent.com/WHKO9mjSz18k2HpfMiZpKLMZisrOIyhyWWQs9PuhxOS0kGdFIQZTDoBB3woZVNjrLMPVyZNFmvnf630LYF1LYg=w526-h296"
+    ]
+  },
+  {
+    "app": "tresors-de-paris",
+    "listing": "https://play.google.com/store/apps/details?id=com.tresorsdeparis",
+    "icon": "https://play-lh.googleusercontent.com/foGT1y70yBDMBWZtw2MywLGysWB94fUgpu76qIi4GGVNfA9_DMQrdT4tZR7eo4lqG_uhbLXZ4tSDik4GuXzouQ=s256",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/CKOyBJvaaEdLaa8Ro2oBJGgtiJ98w-g8INEf8XOONJsYuSXMzLXIGD46UDrSImGiqy30vSOz_MBZEMfKBFwhGg=w526-h296",
+      "https://play-lh.googleusercontent.com/y2SANfg9bNECkaqitU0HvANDRDm-5BO-7HM81ekPNcwT7s6YX6ldv8zsheAViQLiMM7B-znGX3Ls4WXFr61CoQ=w526-h296",
+      "https://play-lh.googleusercontent.com/xEksKqu7d15Kfru4_icStdQfYnsD11VlZSZKn8uw6W1Gp8YJ0v-NpuAbAAECAuA5bUdc50xB0QSfJ86iYDA3dA=w526-h296"
+    ]
+  },
+  {
+    "app": "exploding-booze",
+    "listing": "https://play.google.com/store/apps/details?id=com.explodingbooze",
+    "icon": "https://play-lh.googleusercontent.com/yQ6KkYCYlUsNxwcv-UcZWQgxCmsS6g_iZasOXvsOTroc96L6C_eXVOvKMllFj4fs3j7WcLXY0ER67EV-mlIarA=s256",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/eSk2VoKEfHZjbzLjzI9H_cWBDarQco4hkVcibH0dDoR_hOg01g_FuiMlVuhqilcpv6GxSbtz5M9olFraWnKIzDc=w526-h296",
+      "https://play-lh.googleusercontent.com/h4TAWkoBMRsqUiqi1POJHx6G4WSfxH4_W8q3KxZ2TpcVeAUIEiC-cZ4gYW5Jb9dc3H6toCkJCzq7Cf9CC8ikAQ=w526-h296",
+      "https://play-lh.googleusercontent.com/2zIFOZ3Y_dMdO-Iqau7UaGRUrcF_ggDeko0TBl5c-mrRpqoUnNDcQ7Ycwe9H-uCqXu7AZ6l5-Z-WElw3QznvyA=w526-h296"
+    ]
+  },
+  {
+    "app": "mazebound",
+    "listing": "https://play.google.com/store/apps/details?id=nl.valentijnkeijser.towerdefense",
+    "icon": "https://play-lh.googleusercontent.com/u7Yy4rqTjm-uhLjMeiigO6obVxaf8cldAz-iOM5m067iS56rUevhsg7pnn3ud0mOz5mVflxxXGbfGG92JH7RIA=s256",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/jLAmwG8pm4kyGcsp8TewW1jbkF8bIjqPKnTeAeilFrXlTziyXQgXy-Q8NbB3mA9wAuXrnp-nbRWSb7jox_3T=w526-h296",
+      "https://play-lh.googleusercontent.com/4C_B_D3_yOyikydmVSZ5IPSkDF5T28Ub1SAniI4WyiGP9JPWTiYltYNYophh5zf7SkNIgLoslOAX80yUgFtI=w526-h296",
+      "https://play-lh.googleusercontent.com/Z44shed1Pkm-_FgaZP0f5l2t1jQmc5AolrbfVv6rP6w4FsT38ND1XjmCsXrMIAUsyjA-U3GvvBn2p-gK8ny9=w526-h296"
+    ]
+  }
+]
