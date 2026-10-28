@@ -32,10 +32,10 @@ Contact for support, privacy requests and reports of inappropriate content: <a h
   <tr><td>Account needed</td><td>No</td><td>No</td></tr>
   <tr><td>Data stored only on your device</td><td colspan="2">Player names, local photos, scores, progress, settings and translation caches</td></tr>
   <tr><td>Online play ("Multiple phones")</td><td colspan="2">Optional. Uses Google Firebase with an anonymous ID (see section 4)</td></tr>
-  <tr><td>Advertising</td><td>Yes, Google AdMob, with consent where required</td><td>No</td></tr>
-  <tr><td>In-app purchases</td><td>Optional Premium via Google Play</td><td>No</td></tr>
+  <tr><td>Advertising</td><td colspan="2">Yes, Google AdMob, with consent where required</td></tr>
+  <tr><td>In-app purchases</td><td>Optional Premium via Google Play</td><td>Optional Premium via the App Store</td></tr>
   <tr><td>Automatic translation</td><td>Google ML Kit, on device</td><td>Apple Translation, on device</td></tr>
-  <tr><td>Tracking across other companies' apps and websites</td><td>Only for personalised ads, and only with your consent where required</td><td>No</td></tr>
+  <tr><td>Tracking across other companies' apps and websites</td><td>Only for personalised ads, and only with your consent where required</td><td>Only for personalised ads, and only if you allow it in Apple's tracking prompt</td></tr>
 </table>
 </div>
 
@@ -57,21 +57,22 @@ Contact for support, privacy requests and reports of inappropriate content: <a h
 <p><strong>Safety.</strong> Online names and statements are filtered for offensive words. You can report and block players in <em>Room settings</em>; reports are sent by e-mail to us and contain the room code, the player's name, their anonymous ID and the reported public text (never photos or private answers). Hosts can remove players from a room. We may close rooms or restrict online identities that are used for abuse, and keep minimal records only as long as needed to handle a report or meet legal obligations.</p>
 <p>Firebase is provided by Google (Google Ireland Ltd. / Google LLC), which processes this data on our behalf. See the <a href="https://firebase.google.com/support/privacy">Firebase privacy and security information</a>.</p>
 
-<h2>5. Advertising (Google AdMob) <span class="tag">Android</span></h2>
-<p>The free Android version shows ads from <strong>Google AdMob</strong>. To serve ads, measure them and prevent fraud, the Google Mobile Ads SDK collects and processes data such as:</p>
+<h2>5. Advertising (Google AdMob)</h2>
+<p>The free version of the App shows ads from <strong>Google AdMob</strong>. To serve ads, measure them and prevent fraud, the Google Mobile Ads SDK collects and processes data such as:</p>
 <ul>
-  <li>your device's advertising ID;</li>
+  <li>your device's advertising ID (on iOS the IDFA, only if you allow tracking; otherwise the IDFV, an ID limited to this developer's apps);</li>
   <li>your IP address and the approximate location derived from it;</li>
   <li>device and app information (device model, operating system, language, app version);</li>
   <li>ad interactions (ads shown, clicks) and diagnostic and performance data.</li>
 </ul>
 <p>Google acts as an independent controller for this data. See <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps that use its services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 <p><strong>Your consent.</strong> In the European Economic Area, the United Kingdom and Switzerland, the App asks for your consent through Google's consent message (a Google-certified consent management platform) before ads are loaded. You choose whether Google may use your data for personalised ads. If you decline, Google may still show non-personalised or limited ads, which still use some data for fraud prevention, frequency capping and measurement. In certain US states you can opt out of the "sale" or "sharing" of personal information for targeted advertising in the same way.</p>
-<p>Change or withdraw your choice at any time under <em>Settings → About → Privacy choices</em>. You can also reset or delete your advertising ID in your Android settings (<em>Settings → Privacy → Ads</em>). If you buy Premium, the App stops requesting ads.</p>
-<p><span class="tag">iOS</span> The iPhone and iPad version contains no advertising SDK, does not show ads and does not track you.</p>
+<p><span class="tag">iOS</span> After Google's consent message, the App shows Apple's App Tracking Transparency prompt. Only if you choose <em>Allow</em> can Google use your IDFA for personalised ads and measurement; if you choose <em>Ask App Not to Track</em>, only non-personalised or limited ads are shown. You can change this at any time in <em>iOS Settings → Privacy &amp; Security → Tracking</em>.</p>
+<p>Change or withdraw your consent choice at any time under <em>Settings → About → Privacy choices</em> in the App. <span class="tag">Android</span> You can also reset or delete your advertising ID in your Android settings (<em>Settings → Privacy → Ads</em>). If you buy Premium, the App stops requesting ads on both platforms.</p>
 
-<h2>6. In-app purchases (Google Play Billing) <span class="tag">Android</span></h2>
-<p>Premium is purchased through <strong>Google Play</strong>. Google processes the payment; we never see your payment details. The App only receives confirmation of whether your Google account owns Premium and stores that on your device so it also works offline. See the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and the Google Play Terms of Service. The iOS version has no purchases.</p>
+<h2>6. In-app purchases (Premium)</h2>
+<p>Premium is a one-time purchase that removes ads and unlocks all games. <span class="tag">Android</span> It is purchased through <strong>Google Play</strong>; see the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and the Google Play Terms of Service. <span class="tag">iOS</span> It is purchased through the <strong>App Store</strong>; see <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.</p>
+<p>Google or Apple processes the payment; we never see your payment details. The App only receives confirmation of whether your account owns Premium and stores that on your device so it also works offline. You can restore the purchase on a new device with <em>Restore purchases</em>.</p>
 
 <h2>7. Automatic translations</h2>
 <p>Optional automatic translation runs <strong>on your device</strong>; game text is not sent to a cloud translation service by the App.</p>
@@ -87,9 +88,9 @@ Contact for support, privacy requests and reports of inappropriate content: <a h
   <tr><th>Purpose</th><th>Data</th><th>Legal basis</th></tr>
   <tr><td>Online rooms (Multiple phones)</td><td>Anonymous ID, chosen name, room and game data, technical network data</td><td>Performance of the service you request (Art. 6(1)(b) GDPR)</td></tr>
   <tr><td>Safety, reports and abuse prevention</td><td>Report contents, anonymous ID, room code</td><td>Legitimate interest in protecting players (Art. 6(1)(f))</td></tr>
-  <tr><td>Personalised advertising <span class="tag">Android</span></td><td>Advertising ID, IP address, device data, ad interactions</td><td>Your consent (Art. 6(1)(a))</td></tr>
-  <tr><td>Non-personalised or limited ads, fraud prevention and ad measurement <span class="tag">Android</span></td><td>IP address, device data, ad interactions</td><td>Consent where required by law; otherwise legitimate interest in funding the free App (Art. 6(1)(f))</td></tr>
-  <tr><td>Premium purchase and restoring it <span class="tag">Android</span></td><td>Purchase status from Google Play</td><td>Performance of a contract (Art. 6(1)(b))</td></tr>
+  <tr><td>Personalised advertising</td><td>Advertising ID, IP address, device data, ad interactions</td><td>Your consent (Art. 6(1)(a))</td></tr>
+  <tr><td>Non-personalised or limited ads, fraud prevention and ad measurement</td><td>IP address, device data, ad interactions</td><td>Consent where required by law; otherwise legitimate interest in funding the free App (Art. 6(1)(f))</td></tr>
+  <tr><td>Premium purchase and restoring it</td><td>Purchase status from Google Play or the App Store</td><td>Performance of a contract (Art. 6(1)(b))</td></tr>
   <tr><td>Answering your e-mails</td><td>Your e-mail address and message</td><td>Legitimate interest (Art. 6(1)(f))</td></tr>
 </table>
 </div>
@@ -103,7 +104,7 @@ Contact for support, privacy requests and reports of inappropriate content: <a h
 <h2>11. Your rights</h2>
 <p>Under the GDPR you have the right to access, rectify and erase your personal data, to restrict or object to processing, to data portability, and to withdraw consent at any time without affecting earlier processing. Use the in-app options described above or contact us at <a href="mailto:spileyapps@gmail.com">spileyapps@gmail.com</a>. Please include the room code or your anonymous ID if your request concerns online play.</p>
 <p>You also have the right to lodge a complaint with a supervisory authority. In the Netherlands this is the <a href="https://www.autoriteitpersoonsgegevens.nl">Autoriteit Persoonsgegevens</a>; you may also contact the authority in your own country.</p>
-<p><strong>California and other US states:</strong> you have the right to know, delete and opt out of the sale or sharing of personal information, and not to be discriminated against for using these rights. On Android, use <em>Privacy choices</em> in the App; on both platforms you can e-mail us. We do not sell personal information.</p>
+<p><strong>California and other US states:</strong> you have the right to know, delete and opt out of the sale or sharing of personal information, and not to be discriminated against for using these rights. Use <em>Privacy choices</em> in the App or e-mail us. We do not sell personal information.</p>
 
 <h2>12. Age restriction</h2>
 <p>The App contains mature party content and is intended only for people aged 18 or older. On Android the game uses drinks as penalties; on iOS penalties are score points and no alcohol is needed. We do not knowingly process data of minors. If you believe a minor uses the App, contact us and we will delete any related online data.</p>
