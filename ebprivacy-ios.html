@@ -1,13 +1,118 @@
-<!doctype html>
-<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Exploding Booze — iPhone privacy policy</title>
-<style>body{font:17px/1.65 system-ui,sans-serif;max-width:760px;margin:40px auto;padding:0 22px;color:#222;background:#fff}h1{line-height:1.2}h2{font-size:1.25rem;margin-top:32px}a{color:#134fa3}footer{margin:40px 0;color:#555}</style>
-<main><h1>Exploding Booze — iPhone privacy policy</h1><p>Updated 21 October 2026</p>
-<section><h2>Who operates the app</h2><p>Spiley operates Exploding Booze. Contact spileyapps@gmail.com for support, inappropriate content reports or privacy requests. The iPhone edition has no advertising, advertising tracking or purchases.</p></section>
-<section><h2>One phone</h2><p>Player names, optional camera photos, scores, finished stories, settings and translation caches are stored on this device. Local player photos are not uploaded by the iPhone app. You can play local games without an online profile. Camera access is optional and only requested for a local photo or room QR code; a room code can also be entered manually.</p></section>
-<section><h2>Multiple phones</h2><p>Joining or creating a room uses Firebase Anonymous Authentication and Realtime Database. A random account ID, chosen name, room membership, connection timestamps, votes, scores, actions and player-written statements are processed to run and reconnect the game. Room participants see the relevant game content. Hidden roles and answers are restricted by database rules. iPhone and mixed rooms use fixed avatars and do not accept uploaded player photos. Keep room codes within your own group.</p></section>
-<section><h2>Service providers</h2><p>Firebase is provided by Google and processes online data and technical network information to operate and secure the service. Apple Translation translates on this device and manages optional language downloads; Apple may process translation service usage and performance information. The app does not send game text to a cloud translation service or install Firebase Analytics or advertising SDKs on iPhone.</p></section>
-<section><h2>Retention and deletion</h2><p>Room access expires after 24 hours. Expiry alone does not erase database records; expired rooms are removed through the maintenance process. Delete your data below to close known rooms and erase this phone&#x27;s online identity and local app data. Older associated data is queued for removal; contact support if it has not been addressed within 30 days. Support reports and minimal abuse-prevention records are retained only as needed to investigate, protect players and meet legal obligations. Apple language downloads and operating-system or service-provider logs are managed by those providers.</p></section>
-<section><h2>Your choices and rights</h2><p>You can omit a photo, use a nickname, play offline, revoke camera permission in iOS Settings, block other players and request access, correction or deletion via support. If applicable, you may complain to your local data protection authority. Other room participants may have seen or captured shared content; the app cannot erase their screenshots or memories.</p></section>
-<section><h2>Player conduct</h2><p>Use rooms only with people you know. Do not post harassment, hate speech, threats, sexual content or anyone else&#x27;s private information. Report and block inappropriate players in Room settings. Spiley can remove content, close rooms or restrict abusive online identities. Game penalties are score points; no alcohol is needed. Do not attempt unsafe or unwanted activities.</p></section><p><a href="mailto:spileyapps@gmail.com">Contact Spiley support</a></p></main>
-<footer>This policy describes the iPhone edition. Android advertising and consent are described in the separate Android privacy policy.</footer></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exploding Booze – Privacy Policy</title>
+<link rel="canonical" href="https://spiley.nl/ebprivacy.html">
+<style>
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; max-width: 760px; margin: 0 auto; padding: 1em 16px 3em; line-height: 1.55; color: #222; background: #fff; }
+  h1 { font-size: 1.7em; } h2 { font-size: 1.2em; margin-top: 1.8em; } h3 { font-size: 1.05em; margin-top: 1.3em; }
+  table { border-collapse: collapse; width: 100%; font-size: .95em; }
+  th, td { border: 1px solid #ccc; padding: 6px 8px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; }
+  .muted { color: #666; font-size: .9em; }
+  .tag { display: inline-block; font-size: .8em; font-weight: 600; padding: 1px 7px; border-radius: 4px; background: #eef; color: #335; margin-left: 4px; }
+  .table-wrap { overflow-x: auto; }
+</style>
+</head>
+<body>
+<h1>Privacy Policy – Exploding Booze</h1>
+<p class="muted">Effective date: 28 October 2026 · Applies to Exploding Booze for Android and for iPhone/iPad</p>
+
+<p>This privacy policy explains how the app <strong>Exploding Booze</strong> (the "App") handles personal data on Android and on iOS/iPadOS. Most of it is the same on both platforms. Where something only applies to one of them, it is marked <span class="tag">Android</span> or <span class="tag">iOS</span>. The App is a party game intended for adults (18+).</p>
+
+<h2>1. Who is responsible</h2>
+<p>The data controller is <strong>Valentijn Keijser</strong>, publishing as <strong>Spiley</strong>, based in the Netherlands.<br>
+Contact for support, privacy requests and reports of inappropriate content: <a href="mailto:spileyapps@gmail.com">spileyapps@gmail.com</a></p>
+
+<h2>2. Summary</h2>
+<div class="table-wrap">
+<table>
+  <tr><th></th><th>Android</th><th>iOS</th></tr>
+  <tr><td>Account needed</td><td>No</td><td>No</td></tr>
+  <tr><td>Data stored only on your device</td><td colspan="2">Player names, local photos, scores, progress, settings and translation caches</td></tr>
+  <tr><td>Online play ("Multiple phones")</td><td colspan="2">Optional. Uses Google Firebase with an anonymous ID (see section 4)</td></tr>
+  <tr><td>Advertising</td><td>Yes, Google AdMob, with consent where required</td><td>No</td></tr>
+  <tr><td>In-app purchases</td><td>Optional Premium via Google Play</td><td>No</td></tr>
+  <tr><td>Automatic translation</td><td>Google ML Kit, on device</td><td>Apple Translation, on device</td></tr>
+  <tr><td>Tracking across other companies' apps and websites</td><td>Only for personalised ads, and only with your consent where required</td><td>No</td></tr>
+</table>
+</div>
+
+<h2>3. Data that stays on your device</h2>
+<p>Player names, player photos taken with the in-app camera, scores, finished stories, game progress, settings and cached translations are stored <strong>only on your device</strong>. They are not sent to us. Local player photos are never uploaded; online rooms use fixed illustrated avatars instead. Deleting a player, clearing the App's data or uninstalling the App removes this data.</p>
+<p>The camera is only used when you choose to take a player photo or scan a room QR code. You can refuse or revoke camera permission in your device settings; room codes can also be typed in.</p>
+
+<h2>4. Online play ("Multiple phones")</h2>
+<p>Online play is optional; all games also work on a single phone without it. When you create or join a room, the App uses <strong>Google Firebase Anonymous Authentication</strong> and the <strong>Firebase Realtime Database</strong>. To run and reconnect the game, the following is processed:</p>
+<ul>
+  <li>a random account ID created for your installation (not linked to your name, e-mail or phone number);</li>
+  <li>the name you choose for the room (a nickname is fine);</li>
+  <li>room membership, the room code, connection and presence timestamps;</li>
+  <li>game data such as votes, scores, turns, actions and statements you type for other players;</li>
+  <li>technical network information that Firebase needs to deliver and secure the service, such as your IP address.</li>
+</ul>
+<p>Other players in the same room can see your name and the game content you share with them. Secret roles and answers are protected by database rules. Keep your room code within your own group.</p>
+<p><strong>Retention.</strong> Rooms expire after 24 hours and expired rooms are removed by a regular clean-up process. <span class="tag">iOS</span> You can delete this phone's online identity, close known rooms and erase local app data under <em>Settings → Privacy → Delete your data</em>. <span class="tag">Android</span> Contact us to have your online data deleted; uninstalling the App removes the anonymous identity from your device. Requests are handled within 30 days.</p>
+<p><strong>Safety.</strong> Online names and statements are filtered for offensive words. You can report and block players in <em>Room settings</em>; reports are sent by e-mail to us and contain the room code, the player's name, their anonymous ID and the reported public text (never photos or private answers). Hosts can remove players from a room. We may close rooms or restrict online identities that are used for abuse, and keep minimal records only as long as needed to handle a report or meet legal obligations.</p>
+<p>Firebase is provided by Google (Google Ireland Ltd. / Google LLC), which processes this data on our behalf. See the <a href="https://firebase.google.com/support/privacy">Firebase privacy and security information</a>.</p>
+
+<h2>5. Advertising (Google AdMob) <span class="tag">Android</span></h2>
+<p>The free Android version shows ads from <strong>Google AdMob</strong>. To serve ads, measure them and prevent fraud, the Google Mobile Ads SDK collects and processes data such as:</p>
+<ul>
+  <li>your device's advertising ID;</li>
+  <li>your IP address and the approximate location derived from it;</li>
+  <li>device and app information (device model, operating system, language, app version);</li>
+  <li>ad interactions (ads shown, clicks) and diagnostic and performance data.</li>
+</ul>
+<p>Google acts as an independent controller for this data. See <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps that use its services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<p><strong>Your consent.</strong> In the European Economic Area, the United Kingdom and Switzerland, the App asks for your consent through Google's consent message (a Google-certified consent management platform) before ads are loaded. You choose whether Google may use your data for personalised ads. If you decline, Google may still show non-personalised or limited ads, which still use some data for fraud prevention, frequency capping and measurement. In certain US states you can opt out of the "sale" or "sharing" of personal information for targeted advertising in the same way.</p>
+<p>Change or withdraw your choice at any time under <em>Settings → About → Privacy choices</em>. You can also reset or delete your advertising ID in your Android settings (<em>Settings → Privacy → Ads</em>). If you buy Premium, the App stops requesting ads.</p>
+<p><span class="tag">iOS</span> The iPhone and iPad version contains no advertising SDK, does not show ads and does not track you.</p>
+
+<h2>6. In-app purchases (Google Play Billing) <span class="tag">Android</span></h2>
+<p>Premium is purchased through <strong>Google Play</strong>. Google processes the payment; we never see your payment details. The App only receives confirmation of whether your Google account owns Premium and stores that on your device so it also works offline. See the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and the Google Play Terms of Service. The iOS version has no purchases.</p>
+
+<h2>7. Automatic translations</h2>
+<p>Optional automatic translation runs <strong>on your device</strong>; game text is not sent to a cloud translation service by the App.</p>
+<ul>
+  <li><span class="tag">Android</span> Uses Google's ML Kit on-device translation. Language models are downloaded from Google once and then work offline. ML Kit may send usage and performance metrics to Google. See <a href="https://developers.google.com/ml-kit/terms">ML Kit Terms &amp; Privacy</a>. You can remove downloaded languages in Settings or clear the App's data.</li>
+  <li><span class="tag">iOS</span> Uses Apple's Translation framework with language packs installed on your device. Apple manages these downloads and may process translation usage and performance information under <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.</li>
+</ul>
+<p>Player names, room codes and statements typed by players are never sent for translation.</p>
+
+<h2>8. Purposes and legal bases (GDPR)</h2>
+<div class="table-wrap">
+<table>
+  <tr><th>Purpose</th><th>Data</th><th>Legal basis</th></tr>
+  <tr><td>Online rooms (Multiple phones)</td><td>Anonymous ID, chosen name, room and game data, technical network data</td><td>Performance of the service you request (Art. 6(1)(b) GDPR)</td></tr>
+  <tr><td>Safety, reports and abuse prevention</td><td>Report contents, anonymous ID, room code</td><td>Legitimate interest in protecting players (Art. 6(1)(f))</td></tr>
+  <tr><td>Personalised advertising <span class="tag">Android</span></td><td>Advertising ID, IP address, device data, ad interactions</td><td>Your consent (Art. 6(1)(a))</td></tr>
+  <tr><td>Non-personalised or limited ads, fraud prevention and ad measurement <span class="tag">Android</span></td><td>IP address, device data, ad interactions</td><td>Consent where required by law; otherwise legitimate interest in funding the free App (Art. 6(1)(f))</td></tr>
+  <tr><td>Premium purchase and restoring it <span class="tag">Android</span></td><td>Purchase status from Google Play</td><td>Performance of a contract (Art. 6(1)(b))</td></tr>
+  <tr><td>Answering your e-mails</td><td>Your e-mail address and message</td><td>Legitimate interest (Art. 6(1)(f))</td></tr>
+</table>
+</div>
+
+<h2>9. International transfers</h2>
+<p>Google (Firebase, AdMob, ML Kit) and Apple may process data outside the European Economic Area, including in the United States. They rely on the EU–US Data Privacy Framework and the European Commission's Standard Contractual Clauses for these transfers.</p>
+
+<h2>10. Retention</h2>
+<p>Data on your device is kept until you delete it or uninstall the App. Online room data is kept for the duration of the room and removed after expiry by the clean-up process (see section 4). Google and Apple retain the data they process under their own policies. E-mails and reports you send us are kept only as long as needed to handle them.</p>
+
+<h2>11. Your rights</h2>
+<p>Under the GDPR you have the right to access, rectify and erase your personal data, to restrict or object to processing, to data portability, and to withdraw consent at any time without affecting earlier processing. Use the in-app options described above or contact us at <a href="mailto:spileyapps@gmail.com">spileyapps@gmail.com</a>. Please include the room code or your anonymous ID if your request concerns online play.</p>
+<p>You also have the right to lodge a complaint with a supervisory authority. In the Netherlands this is the <a href="https://www.autoriteitpersoonsgegevens.nl">Autoriteit Persoonsgegevens</a>; you may also contact the authority in your own country.</p>
+<p><strong>California and other US states:</strong> you have the right to know, delete and opt out of the sale or sharing of personal information, and not to be discriminated against for using these rights. On Android, use <em>Privacy choices</em> in the App; on both platforms you can e-mail us. We do not sell personal information.</p>
+
+<h2>12. Age restriction</h2>
+<p>The App contains mature party content and is intended only for people aged 18 or older. On Android the game uses drinks as penalties; on iOS penalties are score points and no alcohol is needed. We do not knowingly process data of minors. If you believe a minor uses the App, contact us and we will delete any related online data.</p>
+
+<h2>13. Changes</h2>
+<p>We may update this policy, for example when the App changes. The effective date at the top always shows the latest version. Material changes will also be announced in the App's release notes.</p>
+
+<h2>14. Contact</h2>
+<p>Valentijn Keijser (Spiley), the Netherlands – <a href="mailto:spileyapps@gmail.com">spileyapps@gmail.com</a></p>
+</body>
+</html>
