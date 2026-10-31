@@ -21,7 +21,11 @@ The four projects were verified against [Spiley's live Google Play catalog](http
 - Exploding Booze — `com.explodingbooze`
 - Mazebound: Simple TD — `nl.valentijnkeijser.towerdefense`
 
-Official app icons and three screenshots per project are saved locally in `assets/` and compressed to WebP. `assets/sources.json` records their Google Play sources. The Manrope font loads from Google Fonts with an Arial fallback.
+Official app icons and three screenshots per project are saved locally in `assets/` and compressed to WebP. `assets/sources.json` records their Google Play sources. Typography uses locally installed Helvetica Neue, Helvetica, or Arial; the homepage makes no external font requests.
+
+## Design
+
+The redesign follows the Swiss / International Typographic Style, documented by the [Swiss National Library](https://www.nb.admin.ch/en/the-international-style-1950-1970). See [DESIGN.md](DESIGN.md) for the reference, layout rules, and tokens.
 
 ## Editing and publishing
 

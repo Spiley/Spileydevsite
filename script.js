@@ -1,6 +1,7 @@
 const filters = document.querySelectorAll('[data-filter]');
 const cards = document.querySelectorAll('.project-card');
 const filterStatus = document.getElementById('filter-status');
+document.querySelector('.filters').hidden = false;
 filters.forEach((button) => {
     button.addEventListener('click', () => {
         const category = button.dataset.filter;
@@ -35,7 +36,9 @@ function renderScreenshot() {
     galleryCounter.textContent = `${currentIndex + 1} / 3`;
 }
 document.querySelectorAll('[data-gallery]').forEach((button) => {
-    button.addEventListener('click', () => {
+    button.addEventListener('click', (event) => {
+        if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+        event.preventDefault();
         currentProject = button.dataset.gallery;
         currentIndex = 0;
         document.getElementById('gallery-title').textContent = projects[currentProject].name;
