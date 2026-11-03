@@ -18,7 +18,7 @@
 </head>
 <body>
 <h1>Privacy Policy – Exploding Booze</h1>
-<p class="muted">Effective date: 31 October 2026 · Applies to Exploding Booze for Android and for iPhone/iPad</p>
+<p class="muted">Effective date: 3 November 2026 · Applies to Exploding Booze for Android and for iPhone/iPad</p>
 
 <p>This privacy policy explains how the app <strong>Exploding Booze</strong> (the "App") handles personal data on Android and on iOS/iPadOS. Most of it is the same on both platforms. Where something only applies to one of them, it is marked <span class="tag">Android</span> or <span class="tag">iOS</span>. The App is a party game intended for adults (18+).</p>
 
@@ -34,6 +34,7 @@ Contact for support, privacy requests and reports of inappropriate content: <a h
   <tr><td>Data stored only on your device</td><td colspan="2">Player names, local photos, scores, progress, settings and translation caches</td></tr>
   <tr><td>Online play ("Multiple phones")</td><td colspan="2">Optional. Uses Google Firebase with an anonymous ID (see section 4)</td></tr>
   <tr><td>Advertising</td><td colspan="2">Yes, Google AdMob, with consent where required</td></tr>
+  <tr><td>Usage statistics</td><td>Google Analytics for Firebase, with consent where required (see section 6)</td><td>Not used</td></tr>
   <tr><td>In-app purchases</td><td>Optional Premium subscription via Google Play</td><td>Optional Premium subscription via the App Store</td></tr>
   <tr><td>Automatic translation</td><td>Google ML Kit, on device</td><td>Apple Translation, on device</td></tr>
   <tr><td>Tracking across other companies' apps and websites</td><td>Only for personalised ads, and only with your consent where required</td><td>Only for personalised ads, and only if you allow it in Apple's tracking prompt</td></tr>
@@ -72,11 +73,22 @@ Contact for support, privacy requests and reports of inappropriate content: <a h
 <p>Change or withdraw your consent choice at any time under <em>Settings → About → Privacy choices</em> in the App. <span class="tag">Android</span> You can also reset or delete your advertising ID in your Android settings (<em>Settings → Privacy → Ads</em>). If you have Premium, the App stops requesting ads on both platforms.</p>
 <p><strong>Rewarded videos.</strong> Without Premium you can choose to watch one rewarded video ad from Google AdMob to play a single Premium game once. This is always your choice and uses the same AdMob data and consent choices described above. Whether you earned the reward is stored only on your device.</p>
 
-<h2>6. In-app purchases (Premium)</h2>
+<h2>6. Usage statistics (Google Analytics for Firebase) <span class="tag">Android</span></h2>
+<p>To learn which games are played and where the App can be improved, the Android App uses Google Analytics for Firebase. The iOS App does not use it. Analytics processes:</p>
+<ul>
+  <li>a random app-instance ID created for your installation (collection of the advertising ID by Analytics is turned off);</li>
+  <li>which screens and games you open, whether you have Premium, and events Firebase records by itself, such as first launch, sessions, app updates and in-app purchases;</li>
+  <li>device and app information (device model, operating system, language, app version) and your approximate country or region, derived from your IP address. Google Analytics does not store IP addresses.</li>
+</ul>
+<p>Player names, photos, typed answers and other game content are never sent to Analytics. Analytics data is not used for advertising.</p>
+<p><strong>Your consent.</strong> In the European Economic Area, the United Kingdom and Switzerland, Analytics only stores the app-instance ID if you agree to storing and accessing information on your device in Google's consent message (see section 5). Without that consent Analytics only receives limited data without that ID. You can change your choice at any time under Settings → About → Privacy choices. Elsewhere Analytics is on by default; e-mail us if you want your Analytics data deleted.</p>
+<p>Google acts as our processor for this data and keeps event-level data for at most 14 months. See <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps that use its services</a> and the <a href="https://firebase.google.com/support/privacy">Firebase privacy information</a>.</p>
+
+<h2>7. In-app purchases (Premium)</h2>
 <p>Premium is an auto-renewing subscription (monthly or yearly) that removes ads and unlocks all games. New subscribers get a free trial week; the subscription renews automatically until you cancel it, at least 24 hours before the end of the current period, in your Google Play or App Store account settings. Everyone who bought the earlier one-time Premium or "Remove ads" keeps it. <span class="tag">Android</span> It is purchased through <strong>Google Play</strong>; see the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and the Google Play Terms of Service. <span class="tag">iOS</span> It is purchased through the <strong>App Store</strong>; see <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.</p>
 <p>Google or Apple processes the payment; we never see your payment details. The App only receives confirmation of whether your account has an active subscription or purchase, and which offers (such as the free trial or a discount for returning subscribers) your account is eligible for. It stores the Premium status on your device so it also works offline. You can restore Premium on a new device with <em>Restore purchases</em> and manage or cancel the subscription from the Premium screen in the App.</p>
 
-<h2>7. Automatic translations</h2>
+<h2>8. Automatic translations</h2>
 <p>Optional automatic translation runs <strong>on your device</strong>; game text is not sent to a cloud translation service by the App.</p>
 <ul>
   <li><span class="tag">Android</span> Uses Google's ML Kit on-device translation. Language models are downloaded from Google once and then work offline. ML Kit may send usage and performance metrics to Google. See <a href="https://developers.google.com/ml-kit/terms">ML Kit Terms &amp; Privacy</a>. You can remove downloaded languages in Settings or clear the App's data.</li>
@@ -84,7 +96,7 @@ Contact for support, privacy requests and reports of inappropriate content: <a h
 </ul>
 <p>Player names, room codes and statements typed by players are never sent for translation.</p>
 
-<h2>8. Purposes and legal bases (GDPR)</h2>
+<h2>9. Purposes and legal bases (GDPR)</h2>
 <div class="table-wrap">
 <table>
   <tr><th>Purpose</th><th>Data</th><th>Legal basis</th></tr>
@@ -92,29 +104,30 @@ Contact for support, privacy requests and reports of inappropriate content: <a h
   <tr><td>Safety, reports and abuse prevention</td><td>Report contents, anonymous ID, room code</td><td>Legitimate interest in protecting players (Art. 6(1)(f))</td></tr>
   <tr><td>Personalised advertising</td><td>Advertising ID, IP address, device data, ad interactions</td><td>Your consent (Art. 6(1)(a))</td></tr>
   <tr><td>Non-personalised or limited ads, fraud prevention and ad measurement</td><td>IP address, device data, ad interactions</td><td>Consent where required by law; otherwise legitimate interest in funding the free App (Art. 6(1)(f))</td></tr>
+  <tr><td>Usage statistics (Android)</td><td>App-instance ID, screens and games opened, Premium status, device data, approximate location</td><td>Your consent in the EEA, UK and Switzerland (Art. 6(1)(a)); elsewhere legitimate interest in improving the App (Art. 6(1)(f))</td></tr>
   <tr><td>Premium subscription, purchase and restoring it</td><td>Subscription and purchase status from Google Play or the App Store</td><td>Performance of a contract (Art. 6(1)(b))</td></tr>
   <tr><td>Answering your e-mails</td><td>Your e-mail address and message</td><td>Legitimate interest (Art. 6(1)(f))</td></tr>
 </table>
 </div>
 
-<h2>9. International transfers</h2>
-<p>Google (Firebase, AdMob, ML Kit) and Apple may process data outside the European Economic Area, including in the United States. They rely on the EU–US Data Privacy Framework and the European Commission's Standard Contractual Clauses for these transfers.</p>
+<h2>10. International transfers</h2>
+<p>Google (Firebase, Google Analytics, AdMob, ML Kit) and Apple may process data outside the European Economic Area, including in the United States. They rely on the EU–US Data Privacy Framework and the European Commission's Standard Contractual Clauses for these transfers.</p>
 
-<h2>10. Retention</h2>
-<p>Data on your device is kept until you delete it or uninstall the App. Online room data is kept for the duration of the room and removed after expiry by the clean-up process (see section 4). Google and Apple retain the data they process under their own policies. E-mails and reports you send us are kept only as long as needed to handle them.</p>
+<h2>11. Retention</h2>
+<p>Data on your device is kept until you delete it or uninstall the App. Online room data is kept for the duration of the room and removed after expiry by the clean-up process (see section 4). Android Analytics data is kept for at most 14 months (see section 6). Google and Apple retain the data they process under their own policies. E-mails and reports you send us are kept only as long as needed to handle them.</p>
 
-<h2>11. Your rights</h2>
+<h2>12. Your rights</h2>
 <p>Under the GDPR you have the right to access, rectify and erase your personal data, to restrict or object to processing, to data portability, and to withdraw consent at any time without affecting earlier processing. Use the in-app options described above or contact us at <a href="mailto:support@spiley.nl">support@spiley.nl</a>. Please include the room code or your anonymous ID if your request concerns online play.</p>
 <p>You also have the right to lodge a complaint with a supervisory authority. In the Netherlands this is the <a href="https://www.autoriteitpersoonsgegevens.nl">Autoriteit Persoonsgegevens</a>; you may also contact the authority in your own country.</p>
 <p><strong>California and other US states:</strong> you have the right to know, delete and opt out of the sale or sharing of personal information, and not to be discriminated against for using these rights. Use <em>Privacy choices</em> in the App or e-mail us. We do not sell personal information.</p>
 
-<h2>12. Age restriction</h2>
+<h2>13. Age restriction</h2>
 <p>The App contains mature party content and is intended only for people aged 18 or older. On Android the game uses drinks as penalties; on iOS penalties are score points and no alcohol is needed. We do not knowingly process data of minors. If you believe a minor uses the App, contact us and we will delete any related online data.</p>
 
-<h2>13. Changes</h2>
+<h2>14. Changes</h2>
 <p>We may update this policy, for example when the App changes. The effective date at the top always shows the latest version. Material changes will also be announced in the App's release notes.</p>
 
-<h2>14. Contact</h2>
+<h2>15. Contact</h2>
 <p>Valentijn Keijser (Spiley), the Netherlands – <a href="mailto:support@spiley.nl">support@spiley.nl</a></p>
 </body>
 </html>
