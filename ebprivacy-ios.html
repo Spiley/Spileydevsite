@@ -34,7 +34,7 @@ Contact for support, privacy requests and reports of inappropriate content: <a h
   <tr><td>Data stored only on your device</td><td colspan="2">Player names, local photos, scores, progress, settings and translation caches</td></tr>
   <tr><td>Online play ("Multiple phones")</td><td colspan="2">Optional. Uses Google Firebase with an anonymous ID (see section 4)</td></tr>
   <tr><td>Advertising</td><td colspan="2">Yes, Google AdMob, with consent where required</td></tr>
-  <tr><td>Usage statistics</td><td>Google Analytics for Firebase, with consent where required (see section 6)</td><td>Not used</td></tr>
+  <tr><td>Usage statistics</td><td colspan="2">Google Analytics for Firebase, with consent where required (see section 6)</td></tr>
   <tr><td>In-app purchases</td><td>Optional Premium subscription via Google Play</td><td>Optional Premium subscription via the App Store</td></tr>
   <tr><td>Automatic translation</td><td>Google ML Kit, on device</td><td>Apple Translation, on device</td></tr>
   <tr><td>Tracking across other companies' apps and websites</td><td>Only for personalised ads, and only with your consent where required</td><td>Only for personalised ads, and only if you allow it in Apple's tracking prompt</td></tr>
@@ -73,10 +73,10 @@ Contact for support, privacy requests and reports of inappropriate content: <a h
 <p>Change or withdraw your consent choice at any time under <em>Settings → About → Privacy choices</em> in the App. <span class="tag">Android</span> You can also reset or delete your advertising ID in your Android settings (<em>Settings → Privacy → Ads</em>). If you have Premium, the App stops requesting ads on both platforms.</p>
 <p><strong>Rewarded videos.</strong> Without Premium you can choose to watch one rewarded video ad from Google AdMob to play a single Premium game once. This is always your choice and uses the same AdMob data and consent choices described above. Whether you earned the reward is stored only on your device.</p>
 
-<h2>6. Usage statistics (Google Analytics for Firebase) <span class="tag">Android</span></h2>
-<p>To learn which games are played and where the App can be improved, the Android App uses Google Analytics for Firebase. The iOS App does not use it. Analytics processes:</p>
+<h2>6. Usage statistics (Google Analytics for Firebase)</h2>
+<p>To learn which games are played and where the App can be improved, the App uses Google Analytics for Firebase on Android and iOS. Analytics processes:</p>
 <ul>
-  <li>a random app-instance ID created for your installation (collection of the advertising ID by Analytics is turned off);</li>
+  <li>a random app-instance ID created for your installation (Analytics does not collect the advertising ID or, on iOS, the IDFA or IDFV);</li>
   <li>which screens and games you open, whether you have Premium, and events Firebase records by itself, such as first launch, sessions, app updates and in-app purchases;</li>
   <li>device and app information (device model, operating system, language, app version) and your approximate country or region, derived from your IP address. Google Analytics does not store IP addresses.</li>
 </ul>
@@ -104,7 +104,7 @@ Contact for support, privacy requests and reports of inappropriate content: <a h
   <tr><td>Safety, reports and abuse prevention</td><td>Report contents, anonymous ID, room code</td><td>Legitimate interest in protecting players (Art. 6(1)(f))</td></tr>
   <tr><td>Personalised advertising</td><td>Advertising ID, IP address, device data, ad interactions</td><td>Your consent (Art. 6(1)(a))</td></tr>
   <tr><td>Non-personalised or limited ads, fraud prevention and ad measurement</td><td>IP address, device data, ad interactions</td><td>Consent where required by law; otherwise legitimate interest in funding the free App (Art. 6(1)(f))</td></tr>
-  <tr><td>Usage statistics (Android)</td><td>App-instance ID, screens and games opened, Premium status, device data, approximate location</td><td>Your consent in the EEA, UK and Switzerland (Art. 6(1)(a)); elsewhere legitimate interest in improving the App (Art. 6(1)(f))</td></tr>
+  <tr><td>Usage statistics</td><td>App-instance ID, screens and games opened, Premium status, device data, approximate location</td><td>Your consent in the EEA, UK and Switzerland (Art. 6(1)(a)); elsewhere legitimate interest in improving the App (Art. 6(1)(f))</td></tr>
   <tr><td>Premium subscription, purchase and restoring it</td><td>Subscription and purchase status from Google Play or the App Store</td><td>Performance of a contract (Art. 6(1)(b))</td></tr>
   <tr><td>Answering your e-mails</td><td>Your e-mail address and message</td><td>Legitimate interest (Art. 6(1)(f))</td></tr>
 </table>
@@ -114,7 +114,7 @@ Contact for support, privacy requests and reports of inappropriate content: <a h
 <p>Google (Firebase, Google Analytics, AdMob, ML Kit) and Apple may process data outside the European Economic Area, including in the United States. They rely on the EU–US Data Privacy Framework and the European Commission's Standard Contractual Clauses for these transfers.</p>
 
 <h2>11. Retention</h2>
-<p>Data on your device is kept until you delete it or uninstall the App. Online room data is kept for the duration of the room and removed after expiry by the clean-up process (see section 4). Android Analytics data is kept for at most 14 months (see section 6). Google and Apple retain the data they process under their own policies. E-mails and reports you send us are kept only as long as needed to handle them.</p>
+<p>Data on your device is kept until you delete it or uninstall the App. Online room data is kept for the duration of the room and removed after expiry by the clean-up process (see section 4). Analytics data is kept for at most 14 months (see section 6). Google and Apple retain the data they process under their own policies. E-mails and reports you send us are kept only as long as needed to handle them.</p>
 
 <h2>12. Your rights</h2>
 <p>Under the GDPR you have the right to access, rectify and erase your personal data, to restrict or object to processing, to data portability, and to withdraw consent at any time without affecting earlier processing. Use the in-app options described above or contact us at <a href="mailto:support@spiley.nl">support@spiley.nl</a>. Please include the room code or your anonymous ID if your request concerns online play.</p>
