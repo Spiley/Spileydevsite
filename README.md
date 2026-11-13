@@ -1,23 +1,28 @@
-# Spiley — Apps & games
+# Spiley - Apps & games
 
-An independent app studio site built with plain HTML, CSS and JavaScript. No framework or installation step is needed.
+A static app studio site built with plain HTML, CSS and JavaScript. The main collection features WatchWorld, Exploding Booze and Mazebound. Trésors de Paris is a compact additional project with store links and no images.
 
-## Design
+## Current store artwork
 
-See [DESIGN.md](DESIGN.md) for the online references and design decisions. The four projects retain their real app icons, screenshots and store links. Plus Jakarta Sans is self-hosted; the SIL Open Font License is in assets/fonts/OFL.txt. Existing legal page URLs and app-ads.txt remain available.
+Current official screenshots and icons live in assets/store/. Their original URLs, dimensions and check date are recorded in assets/store/sources.json. The Exploding Booze gallery has separate Android and iPhone/iPad selections, with links to the matching store.
+
+To refresh the artwork and gallery data from Google Play and Apple's developer catalogue:
+
+    npm ci
+    npm run sync:stores
+
+This updates the app previews, runtime gallery data and provenance, then generates versioned CSS/JavaScript and checks the result. Commit the changed HTML, script, store assets and generated files together. Run the command again when the store listings change. Node dependencies are development tools; the published site has no package install or build requirement.
 
 ## Editing and verification
 
-Edit index.html, styles.css or script.js, then run:
+For changes to text, styles or interactions:
 
     node scripts/version-assets.mjs
-    node scripts/check-assets.mjs
+    npm run check
     node --check script.js
 
-Commit generated styles.<hash>.css and script.<hash>.js together with the HTML. The content hashes avoid stale styles and scripts after a Pages deployment. Retain earlier generated assets when they have been published, so cached HTML keeps working. No build step is required on GitHub Pages.
+Publish the repository directly with GitHub Pages. Preserve CNAME, app-ads.txt, policy URLs and previously published assets so cached pages can still load. Plus Jakarta Sans is self-hosted with its SIL Open Font License in assets/fonts/OFL.txt.
 
-Use a static HTTP server to preview the repository. Check desktop and mobile, all three filters, the four screenshot galleries (including keyboard navigation and Escape), app-launcher links after filtering, and the policy pages. Without JavaScript, every app remains visible and screenshot links open the image.
+Check desktop and mobile, app/game filters, all three galleries, Android/iOS switching for Exploding Booze, arrow keys, Escape and launcher navigation after filtering. Legal pages retain their text and paths. Screenshot links open their image directly when JavaScript is unavailable.
 
-## Project assets
-
-WatchWorld (com.WatchWorld), Trésors de Paris (com.tresorsdeparis), Exploding Booze (com.explodingbooze) and Mazebound: Simple TD (nl.valentijnkeijser.towerdefense). Official app icons and screenshots are saved locally as WebP. assets/sources.json records their sources.
+See DESIGN.md for the original design references.

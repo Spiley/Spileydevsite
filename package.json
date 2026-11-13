@@ -1,0 +1,13 @@
+{
+  "name": "spiley-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync:stores": "node scripts/sync-store-assets.mjs && node scripts/version-assets.mjs && node scripts/check-assets.mjs",
+    "check": "node scripts/check-assets.mjs"
+  },
+  "devDependencies": {
+    "google-play-scraper": "10.1.4",
+    "sharp": "^0.35.5"
+  }
+}

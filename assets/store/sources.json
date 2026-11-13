@@ -1,0 +1,195 @@
+{
+  "checkedAt": "2026-11-13",
+  "apps": {
+    "watchworld": {
+      "name": "WatchWorld",
+      "googlePlay": "https://play.google.com/store/apps/details?id=com.WatchWorld",
+      "android": [
+        {
+          "file": "watchworld-android-1.6480b4e2c3.webp",
+          "url": "https://play-lh.googleusercontent.com/Yk0AC-w4lpPZkRQCr7Mn_MoaDmL395zadOpfPp4SXTeJ8WzpE1co8JtJoCvosHFvSD6rDm8Q8c6kfSNQsSH7zdg=w1000",
+          "width": 800,
+          "height": 1743
+        },
+        {
+          "file": "watchworld-android-2.58cd44dffc.webp",
+          "url": "https://play-lh.googleusercontent.com/frqNXfX57N_DbuSa4LZ5bRkOzog1WbtyI1LcYkKgzdNAYcUJoIO9NSoJ4ZVFEWYfHnadVldft-3VJSWZbgTa=w1000",
+          "width": 800,
+          "height": 1743
+        },
+        {
+          "file": "watchworld-android-3.5b8c4eb3f4.webp",
+          "url": "https://play-lh.googleusercontent.com/WHKO9mjSz18k2HpfMiZpKLMZisrOIyhyWWQs9PuhxOS0kGdFIQZTDoBB3woZVNjrLMPVyZNFmvnf630LYF1LYg=w1000",
+          "width": 800,
+          "height": 1743
+        },
+        {
+          "file": "watchworld-android-4.1dff61dd8e.webp",
+          "url": "https://play-lh.googleusercontent.com/jFghumA_xIrdatMr9DP3enGez2l9IBQKKASFeH82bIVuu87gGYLRwS7R8E8c3qi1gAraxN3nDhEuMgeIhG6a=w1000",
+          "width": 800,
+          "height": 1743
+        }
+      ],
+      "ios": [],
+      "icon": {
+        "file": "watchworld-icon.6c8f2b264d.webp",
+        "url": "https://play-lh.googleusercontent.com/t7lZjWJ9tpYrsBAhdHkoCKz4YipGhFP5KgocuE8vfD6_LrmlXvvHTd95q_g1_nLuCC_w6baoOUO-P_pIWSDu=s512",
+        "width": 256,
+        "height": 256
+      }
+    },
+    "exploding-booze": {
+      "name": "Exploding Booze",
+      "googlePlay": "https://play.google.com/store/apps/details?id=com.explodingbooze",
+      "android": [
+        {
+          "file": "exploding-booze-android-1.90633511b1.webp",
+          "url": "https://play-lh.googleusercontent.com/TJCVeQgQa8XrUwoqSBw3iRid5VC8fdwC7ujEcjAMFmbshWAn5ftFl1uPXqW-QbSEsC3iNe2tZQh_2X2amuk3NA=w1000",
+          "width": 800,
+          "height": 1743
+        },
+        {
+          "file": "exploding-booze-android-2.e6249695f2.webp",
+          "url": "https://play-lh.googleusercontent.com/65yDCrEj_zBKJjNEORNxssiZ1IeOUjDpcIg-ij5mOaUUZZ0CHT2DHKLYtqEqSPdy0GMDD9hyuxd_dDtnKCmwqCw=w1000",
+          "width": 800,
+          "height": 1743
+        },
+        {
+          "file": "exploding-booze-android-3.67f1072d9a.webp",
+          "url": "https://play-lh.googleusercontent.com/UnFboZKPsjHfqjmTJ6Nu3oNafjWsyC0_xrFxhs-Nc9ONwAqt7dEumi9bVVknVI9oWf1OV_zWHxufsAqGrrat7Q=w1000",
+          "width": 800,
+          "height": 1778
+        },
+        {
+          "file": "exploding-booze-android-4.9dc022d3f9.webp",
+          "url": "https://play-lh.googleusercontent.com/0UvoCeYfyXowB-eLXqnn0KwoxBreeg_QbVK3fDj8lesCR1mR0nTgZQ3UAr75Lfmf15JbwKyNqhGdw_dESS7_wg=w1000",
+          "width": 800,
+          "height": 1743
+        },
+        {
+          "file": "exploding-booze-android-5.9cae644ae3.webp",
+          "url": "https://play-lh.googleusercontent.com/cxmEAWCSrAaw2l_yjDRBLE0qa34stQ0faQA0y26LF_9uVngv4pjioPV9ZS604pFZfYX9YacfIKGTpJsu5Pwx=w1000",
+          "width": 800,
+          "height": 1778
+        },
+        {
+          "file": "exploding-booze-android-6.fe0c709a65.webp",
+          "url": "https://play-lh.googleusercontent.com/ig_xA6qWnu_J0Kypup0mn51RqrNEfOL8Hs4eTVjucmcDAaVcpGApzIcxl3zKja9MN7qvuJ7Wq_gxB6NUiDwI1w=w1000",
+          "width": 800,
+          "height": 1743
+        },
+        {
+          "file": "exploding-booze-android-7.f89a21538d.webp",
+          "url": "https://play-lh.googleusercontent.com/sdERMqi-MhOgF6acIJL-mBiWEPE31mv2Itf6ZDk4FhCtqS6lT7NwtpmRBJnWeye0wRLktGmWMrlBeKYanWvUgg=w1000",
+          "width": 800,
+          "height": 1778
+        }
+      ],
+      "ios": [
+        {
+          "file": "exploding-booze-ios-1.79f46161be.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/05/70/ec0570a3-b056-5452-c894-f7ad4b46429f/1-home.png/800x0w.jpg",
+          "width": 800,
+          "height": 1739
+        },
+        {
+          "file": "exploding-booze-ios-2.9f764d1441.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/26/e7/5f/26e75f6a-29f6-b4fc-651d-b995d1757344/2-game_select.png/800x0w.jpg",
+          "width": 800,
+          "height": 1739
+        },
+        {
+          "file": "exploding-booze-ios-3.45c1f18454.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/52/15/13521542-fec3-71dd-f951-c6db2c1ec91c/3-exploding_booze.png/800x0w.jpg",
+          "width": 800,
+          "height": 1739
+        },
+        {
+          "file": "exploding-booze-ios-4.ae38b068e9.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/b3/bf/c3b3bf03-51ba-111a-a98e-6fc02c06a6d5/4-hot_seat.png/800x0w.jpg",
+          "width": 800,
+          "height": 1739
+        },
+        {
+          "file": "exploding-booze-ios-5.ceb966b414.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/f0/4b/9af04b17-8fc7-0556-7fd2-8a43d4b97124/5-truth_or_dare.png/800x0w.jpg",
+          "width": 800,
+          "height": 1739
+        },
+        {
+          "file": "exploding-booze-ios-6.8abf26f138.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7a/b7/12/7ab71211-2d52-4f5d-0bd1-757f396e23bd/6-kings_cup.png/800x0w.jpg",
+          "width": 800,
+          "height": 1739
+        },
+        {
+          "file": "exploding-booze-ios-7.c8a9099727.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fa/8c/c3/fa8cc316-5667-5b71-05c0-f1d30783d2c5/7-riddle_circle.png/800x0w.jpg",
+          "width": 800,
+          "height": 1739
+        }
+      ],
+      "icon": {
+        "file": "exploding-booze-icon.3f69fcfb86.webp",
+        "url": "https://play-lh.googleusercontent.com/L4jrNreU3kX1z5OcGULK-SwNIOPSpR2thg4YaEGZ5S2HUb6hYUR5FUduit3LAaaMRd0z5VAU73kYxSrNKn1h=s512",
+        "width": 256,
+        "height": 256
+      },
+      "appStore": "https://apps.apple.com/nl/app/exploding-booze/id6825521254"
+    },
+    "mazebound": {
+      "name": "Mazebound: Simple TD",
+      "googlePlay": "https://play.google.com/store/apps/details?id=nl.valentijnkeijser.towerdefense",
+      "android": [
+        {
+          "file": "mazebound-android-1.5e55789212.webp",
+          "url": "https://play-lh.googleusercontent.com/-gJ6PdUtCeF0gFJ0xy9LpEavoXQ5CiZl9Moi6vGBNmiYzyOr8kdTrOIwoXNOyPJ-fq-FWrY4qF_dIq_9_c5qQg=w1000",
+          "width": 800,
+          "height": 367
+        },
+        {
+          "file": "mazebound-android-2.ca8eb2a379.webp",
+          "url": "https://play-lh.googleusercontent.com/YSy7GD807pva6ACK2cLCvTNbWXSZaX2S6oLuzhB0WkJszCeYETV8J0pNNFILk4AyBvq-d8JnqpEYM7DzUG42rw=w1000",
+          "width": 800,
+          "height": 367
+        },
+        {
+          "file": "mazebound-android-3.480e2c1079.webp",
+          "url": "https://play-lh.googleusercontent.com/y0a3eHbc_gxWWAQ3oEz9SN_0i64J5DWWvVGifNac6wmH9CRyaXxDqrdWRYRuOZ_XfviOqVrogiqVXzLCj4Iw=w1000",
+          "width": 800,
+          "height": 367
+        },
+        {
+          "file": "mazebound-android-4.430d531425.webp",
+          "url": "https://play-lh.googleusercontent.com/kvVDyh-emKEXkaqgSl8JNqPtmPw8fG4wPqDlWiRBuHLCEp8qYTOwJtbyxyq8oPDwfl8wKT-YXjcRiWh2qRhJPw=w1000",
+          "width": 800,
+          "height": 367
+        },
+        {
+          "file": "mazebound-android-5.7aa8c7a287.webp",
+          "url": "https://play-lh.googleusercontent.com/FWa-A_4JPnfZdX8EY69uv2agS7DfsIBPYlDcZLdunstECOsZCJIcsyT7ihRlPUFUhliIpwoxn9A1uN2Wk1-EiA=w1000",
+          "width": 800,
+          "height": 367
+        },
+        {
+          "file": "mazebound-android-6.72a1e2e5bd.webp",
+          "url": "https://play-lh.googleusercontent.com/H4yg4tWcScJcGEDsjlSsCsiJ62s3-7Erl_7IdbhObJ3jh8WzfUcp6Y0iglZg6QeqX3Vml3zwnys7i7ItuSLvcQ=w1000",
+          "width": 800,
+          "height": 367
+        }
+      ],
+      "ios": [],
+      "icon": {
+        "file": "mazebound-icon.4bd2abe3df.webp",
+        "url": "https://play-lh.googleusercontent.com/u7Yy4rqTjm-uhLjMeiigO6obVxaf8cldAz-iOM5m067iS56rUevhsg7pnn3ud0mOz5mVflxxXGbfGG92JH7RIA=s512",
+        "width": 256,
+        "height": 256
+      }
+    }
+  },
+  "extra": {
+    "name": "Trésors de Paris",
+    "appStore": "https://apps.apple.com/nl/app/tr%C3%A9sors-de-paris/id6825832241",
+    "googlePlay": "https://play.google.com/store/apps/details?id=com.tresorsdeparis"
+  }
+}
