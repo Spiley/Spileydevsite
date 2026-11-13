@@ -1,30 +1,24 @@
-# Design reference
+# Design references
 
-This site follows the **Swiss / International Typographic Style**, rather than a custom decorative visual language.
+Spiley is an app collection and independent studio site, separate from the Valentijn personal website.
 
-Primary reference: [Swiss National Library — The International style 1950–1970](https://www.nb.admin.ch/en/the-international-style-1950-1970).
+Online references reviewed for this redesign:
 
-The source describes typographic grids, sans serif typography, precise execution, restrained colour, and composition without ornamentation. This implementation translates those principles into a contemporary, responsive app portfolio:
+- [Panic](https://panic.com/): distinctive presentations for apps and games, with personality provided by the actual products.
+- [Not Boring Software](https://notbor.ing/): playful app identity, confident typography and direct product exploration.
+- [Things by Cultured Code](https://culturedcode.com/things/): real interface screenshots and clear paths to the app.
 
-- A consistent 5:7 grid aligns project information, screenshots, and the developer section. It becomes a single column on small screens.
-- Helvetica Neue, Helvetica, and Arial use the visitor's installed fonts. No external font request is required.
-- Large, left-aligned typography carries the hierarchy. Body copy describes the actual projects directly.
-- White, near-black, solid divider lines, and one cobalt accent replace the old cream/orange palette, decorative illustrations, and floating phone mockups.
-- Official app screenshots are shown upright and uncropped, with their original proportions. The project imagery supplies most of the colour.
-- Navigation and project actions stay visible, including without JavaScript. Filters are progressively enhanced; screenshot links open an image when JavaScript is unavailable.
-- Keyboard focus, the native modal dialog, live announcements, and reduced-motion support are retained.
+This is an original implementation informed by those references; no third-party logos, proprietary illustrations or website code are included. The app artwork is the existing Spiley collection.
+
+## Implementation
+
+- Plus Jakarta Sans gives the studio its own typographic voice. It is self-hosted under the included SIL Open Font License.
+- An app launcher introduces the four products. The two-column collection assigns each product a distinct background and shows full, proportional screenshots.
+- Rounded download actions, screenshot galleries and product icons make the page an app catalogue rather than a CV.
+- Short entrance animations, scroll reveals, icon hover movement and gallery transitions support exploration. Reduced-motion preferences disable animation. JavaScript remains optional for browsing the collection.
+- Apps/games filters retain live status announcements. Clicking an app-launcher link restores hidden products before following its anchor.
+- Legal pages use shared typography and navigation. Legal text, dates, canonical URLs and file paths remain intact.
 
 ## Tokens
 
-| Role | Value |
-| --- | --- |
-| Background | `#ffffff` |
-| Primary text | `#171717` |
-| Secondary text | `#626262` |
-| Divider | `#dedede` |
-| Accent / keyboard focus | `#2249d8` |
-| Neutral surface | `#f3f3f3` |
-| Maximum content width | `1280px` |
-| Desktop / tablet / mobile margins | `56px` / `32px` / `20px` |
-
-The referenced movement informs the layout and typography; this site does not reproduce another company's identity or artwork.
+Background #f7f8fc; text #18212c; accent #2854e8. App backgrounds: WatchWorld #dfeaff, Trésors de Paris #dceede, Exploding Booze #e9e0fa, Mazebound #f5e9bc. Content width 1160px; collection breakpoint 700px.

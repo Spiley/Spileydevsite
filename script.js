@@ -1,21 +1,26 @@
 const filters = document.querySelectorAll('[data-filter]');
 const cards = document.querySelectorAll('.project-card');
 const filterStatus = document.getElementById('filter-status');
+const prefersReducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
 document.querySelector('.filters').hidden = false;
 filters.forEach((button) => {
     button.addEventListener('click', () => {
-        const category = button.dataset.filter;
-        filters.forEach((filter) => {
-            const selected = filter === button;
-            filter.classList.toggle('active', selected);
-            filter.setAttribute('aria-pressed', String(selected));
-        });
-        let visible = 0;
-        cards.forEach((card) => {
-            card.hidden = category !== 'all' && card.dataset.category !== category;
-            if (!card.hidden) visible += 1;
-        });
-        filterStatus.textContent = `Showing ${visible} ${category === 'all' ? 'projects' : category === 'app' ? 'apps' : 'games'}.`;
+        const applyFilter = () => {
+            const category = button.dataset.filter;
+            filters.forEach((filter) => {
+                const selected = filter === button;
+                filter.classList.toggle('active', selected);
+                filter.setAttribute('aria-pressed', String(selected));
+            });
+            let visible = 0;
+            cards.forEach((card) => {
+                card.hidden = category !== 'all' && card.dataset.category !== category;
+                if (!card.hidden) visible += 1;
+            });
+            filterStatus.textContent = `Showing ${visible} ${category === 'all' ? 'projects' : category === 'app' ? 'apps' : 'games'}.`;
+        };
+        if (document.startViewTransition && !prefersReducedMotion.matches) document.startViewTransition(applyFilter);
+        else applyFilter();
     });
 });
 const projects = {
@@ -68,3 +73,38 @@ dialog.addEventListener('keydown', (event) => {
     }
 });
 document.getElementById('year').textContent = new Date().getFullYear();
+
+// Selecting an app from the launcher also works after filtering the collection.
+document.querySelectorAll('.app-dock a').forEach(link => {
+    link.addEventListener('click', () => {
+        const target = document.getElementById(link.hash.slice(1));
+        if (target?.hidden) {
+            // Reveal synchronously, before the browser resolves the anchor position.
+            cards.forEach(card => { card.hidden = false; });
+            filters.forEach(filter => {
+                const selected = filter.dataset.filter === 'all';
+                filter.classList.toggle('active', selected);
+                filter.setAttribute('aria-pressed', String(selected));
+            });
+            filterStatus.textContent = 'Showing 4 projects.';
+        }
+    });
+});
+
+if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) return;
+            entry.target.classList.add('revealed');
+            observer.unobserve(entry.target);
+        });
+    }, { threshold: 0.06 });
+    document.querySelectorAll('.project-card, .about-section').forEach(element => {
+        element.classList.add('reveal');
+        observer.observe(element);
+    });
+    if (!prefersReducedMotion.matches) document.body.classList.add('has-motion');
+    prefersReducedMotion.addEventListener('change', () => {
+        document.body.classList.toggle('has-motion', !prefersReducedMotion.matches);
+    });
+}
